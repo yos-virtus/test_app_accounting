@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return Hash::make('secret');
 });
+
+// Route::auth();
+// 
+
